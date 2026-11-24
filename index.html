@@ -1,0 +1,1100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>极品黑料网_深扒档案与真相影像 | 官方视频门户</title>
+<meta name="description" content="极品黑料网官方网站，以专业影像与深度档案还原事件真相，汇聚原创创作者，打造值得信赖的内容生态与视频社区。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2314161c'/%3E%3Cpath d='M20 18h16l12 14-12 14H20z' fill='%23ff3b5c'/%3E%3Ccircle cx='28' cy='32' r='5' fill='%23fff'/%3E%3C/svg%3E">
+<style>
+:root{
+  --jk-bg:#14161c;
+  --jk-bg2:#1b1e27;
+  --jk-panel:#20242f;
+  --jk-line:#2e3342;
+  --jk-text:#e8eaf0;
+  --jk-mute:#9aa2b4;
+  --jk-red:#ff3b5c;
+  --jk-cyan:#38e8c8;
+  --jk-yellow:#ffd166;
+  --jk-radius:14px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:132px}
+body{
+  background:var(--jk-bg);
+  color:var(--jk-text);
+  font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+ul{list-style:none}
+.jk-wrap{width:min(1180px,92%);margin:0 auto}
+.jk-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* 吸顶容器 */
+.jk-stick{position:sticky;top:0;z-index:60}
+.jk-announce{
+  background:linear-gradient(90deg,#ff3b5c,#b81c3a 55%,#5c1020);
+  color:#fff;font-size:13.5px;
+}
+.jk-announce-in{display:flex;align-items:center;gap:12px;padding:8px 0;overflow:hidden}
+.jk-announce-tag{
+  flex:none;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.35);
+  border-radius:999px;padding:1px 10px;font-size:12px;letter-spacing:.06em;
+}
+.jk-announce-marquee{flex:1;min-width:0;white-space:nowrap;overflow:hidden;position:relative}
+.jk-announce-marquee span{display:inline-block;padding-left:100%;animation:jk-marquee 26s linear infinite}
+@keyframes jk-marquee{to{transform:translateX(-100%)}}
+.jk-announce-more{flex:none;font-size:12.5px;border-bottom:1px dashed rgba(255,255,255,.7)}
+
+.jk-header{background:rgba(20,22,28,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--jk-line)}
+.jk-head-in{display:flex;align-items:center;gap:22px;padding:12px 0}
+.jk-logo{display:flex;align-items:center;gap:10px;flex:none}
+.jk-logo-mark{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,#ff3b5c,#7a0f24);display:grid;place-items:center;font-weight:800;font-size:19px;color:#fff;letter-spacing:-1px}
+.jk-logo-txt strong{display:block;font-size:17px;letter-spacing:.02em;line-height:1.2}
+.jk-logo-txt em{font-style:normal;font-size:11px;color:var(--jk-mute);letter-spacing:.18em}
+.jk-nav{display:flex;gap:4px;flex:1;min-width:0;flex-wrap:wrap}
+.jk-nav a{padding:6px 11px;border-radius:8px;font-size:14.5px;color:var(--jk-mute);transition:.2s}
+.jk-nav a:hover,.jk-nav a.jk-on{color:#fff;background:var(--jk-panel)}
+.jk-search{position:relative;flex:none;width:250px}
+.jk-search input{
+  width:100%;background:var(--jk-bg2);border:1px solid var(--jk-line);color:var(--jk-text);
+  border-radius:999px;padding:9px 38px 9px 16px;font-size:14px;outline:none;transition:.2s;
+}
+.jk-search input:focus{border-color:var(--jk-red);box-shadow:0 0 0 3px rgba(255,59,92,.18)}
+.jk-search button{position:absolute;right:5px;top:50%;transform:translateY(-50%);width:28px;height:28px;border-radius:50%;background:var(--jk-red);color:#fff;font-size:13px;display:grid;place-items:center}
+.jk-search-hint{
+  position:absolute;left:0;right:0;top:calc(100% + 8px);background:var(--jk-panel);
+  border:1px solid var(--jk-line);border-radius:12px;padding:8px;font-size:13px;color:var(--jk-mute);
+  display:none;z-index:70;box-shadow:0 18px 40px rgba(0,0,0,.5);
+}
+.jk-search-hint.jk-show{display:block}
+.jk-search-hint b{color:var(--jk-cyan)}
+.jk-burger{display:none;flex:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--jk-line);align-items:center;justify-content:center;font-size:17px}
+
+/* 首屏 */
+.jk-hero{padding:56px 0 20px}
+.jk-hero-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:46px;align-items:center}
+.jk-kicker{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:.16em;color:var(--jk-cyan);border:1px solid rgba(56,232,200,.4);border-radius:999px;padding:4px 12px;margin-bottom:18px}
+.jk-kicker i{width:6px;height:6px;border-radius:50%;background:var(--jk-cyan);display:block}
+h1{font-size:clamp(34px,5vw,58px);line-height:1.08;letter-spacing:-.02em;font-weight:800}
+h1 .jk-h1-sub{display:block;font-size:clamp(15px,2vw,21px);font-weight:500;color:var(--jk-mute);letter-spacing:.02em;margin-top:12px;line-height:1.6}
+.jk-hero-lede{margin:22px 0 8px;color:#c3c9d8;font-size:15.5px}
+.jk-hero-lede b{color:var(--jk-yellow)}
+.jk-btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.jk-btn{display:inline-flex;align-items:center;gap:8px;padding:11px 22px;border-radius:999px;font-size:14.5px;font-weight:600;transition:.2s;border:1px solid transparent}
+.jk-btn-main{background:var(--jk-red);color:#fff;box-shadow:0 10px 26px rgba(255,59,92,.28)}
+.jk-btn-main:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(255,59,92,.42)}
+.jk-btn-ghost{border-color:var(--jk-line);color:var(--jk-text);background:var(--jk-panel)}
+.jk-btn-ghost:hover{border-color:var(--jk-cyan);color:var(--jk-cyan)}
+.jk-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:34px}
+.jk-stat{background:var(--jk-bg2);border:1px solid var(--jk-line);border-radius:var(--jk-radius);padding:14px 16px}
+.jk-stat strong{display:block;font-size:clamp(20px,2.6vw,28px);color:var(--jk-cyan);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.jk-stat span{font-size:12.5px;color:var(--jk-mute)}
+.jk-hero-art{position:relative;border-radius:20px;overflow:hidden;border:1px solid var(--jk-line);background:#0e1015;box-shadow:0 30px 70px rgba(0,0,0,.55)}
+.jk-hero-art img{width:100%;height:auto;aspect-ratio:4/3.4;object-fit:cover}
+.jk-hero-badge{position:absolute;left:16px;bottom:16px;right:16px;background:rgba(14,16,21,.82);backdrop-filter:blur(6px);border:1px solid var(--jk-line);border-radius:12px;padding:12px 14px;font-size:13px;color:#cfd5e2;display:flex;gap:12px;align-items:center}
+.jk-hero-badge span.jk-live{flex:none;background:var(--jk-red);color:#fff;font-size:11px;letter-spacing:.1em;border-radius:4px;padding:2px 7px}
+
+/* 通用 section */
+.jk-sec{padding:64px 0;border-top:1px solid var(--jk-line)}
+.jk-sec-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:34px}
+h2{font-size:clamp(23px,3vw,32px);letter-spacing:-.01em;line-height:1.25;font-weight:800}
+.jk-sec-sub{color:var(--jk-mute);font-size:14.5px;margin-top:8px;max-width:640px}
+.jk-eyebrow{font-size:12px;letter-spacing:.22em;color:var(--jk-red);font-weight:700;margin-bottom:10px}
+h3{font-size:17.5px;line-height:1.45;font-weight:700}
+.jk-tag{display:inline-block;font-size:11.5px;letter-spacing:.05em;color:var(--jk-cyan);border:1px solid rgba(56,232,200,.35);border-radius:999px;padding:1px 9px;margin-right:6px}
+.jk-tag-red{color:#ff8598;border-color:rgba(255,59,92,.4)}
+.jk-meta{font-size:12.5px;color:var(--jk-mute);display:flex;flex-wrap:wrap;gap:6px 14px}
+.jk-meta b{color:var(--jk-yellow);font-weight:600;font-variant-numeric:tabular-nums}
+
+/* 焦点内容 */
+.jk-focus{display:grid;grid-template-columns:1.05fr 1fr;gap:34px;align-items:start}
+.jk-focus-main{border:1px solid var(--jk-line);border-radius:18px;overflow:hidden;background:var(--jk-bg2);transition:.25s}
+.jk-focus-main:hover{transform:translateY(-3px);border-color:rgba(255,59,92,.55)}
+.jk-focus-main img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.jk-focus-body{padding:18px 20px 22px}
+.jk-focus-body p{color:var(--jk-mute);font-size:14px;margin:10px 0 14px}
+.jk-list{display:grid;gap:14px}
+.jk-item{display:grid;grid-template-columns:64px minmax(0,1fr);gap:14px;background:var(--jk-bg2);border:1px solid var(--jk-line);border-radius:12px;padding:12px;transition:.2s}
+.jk-item:hover{border-color:rgba(56,232,200,.45);transform:translateX(3px)}
+.jk-item-idx{width:64px;height:64px;border-radius:10px;display:grid;place-items:center;font-weight:800;font-size:18px;color:#0e1015;background:linear-gradient(140deg,var(--jk-cyan),#0f9c86)}
+.jk-item:nth-child(2) .jk-item-idx{background:linear-gradient(140deg,var(--jk-yellow),#c98a00)}
+.jk-item:nth-child(3) .jk-item-idx{background:linear-gradient(140deg,#ff3b5c,#8d1026);color:#fff}
+.jk-item h3{font-size:15.5px}
+.jk-item p{font-size:13px;color:var(--jk-mute);margin:4px 0 8px}
+.jk-acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.jk-act{font-size:12.5px;padding:5px 12px;border-radius:999px;border:1px solid var(--jk-line);background:var(--jk-panel);color:var(--jk-mute);transition:.18s;display:inline-flex;align-items:center;gap:5px}
+.jk-act:hover{color:#fff;border-color:var(--jk-red)}
+.jk-act.jk-liked{color:#fff;background:var(--jk-red);border-color:var(--jk-red)}
+.jk-act.jk-saved{color:#0e1015;background:var(--jk-yellow);border-color:var(--jk-yellow);font-weight:600}
+
+/* 视频列表 */
+.jk-vlist{display:grid;gap:0;border:1px solid var(--jk-line);border-radius:16px;overflow:hidden}
+.jk-vrow{display:grid;grid-template-columns:74px minmax(0,1fr) auto;gap:16px;padding:18px 20px;background:var(--jk-bg2);border-bottom:1px solid var(--jk-line);align-items:start;transition:.2s}
+.jk-vrow:last-child{border-bottom:none}
+.jk-vrow:hover{background:var(--jk-panel)}
+.jk-vno{font-size:22px;font-weight:800;color:var(--jk-line);line-height:1;padding-top:4px;font-variant-numeric:tabular-nums}
+.jk-vrow h3{font-size:16px}
+.jk-vrow p{font-size:13.5px;color:var(--jk-mute);margin:5px 0 8px}
+.jk-vthumb{width:120px;height:68px;border-radius:8px;object-fit:cover;border:1px solid var(--jk-line)}
+@media(max-width:720px){.jk-vthumb{display:none}}
+
+/* 专题 */
+.jk-topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.jk-topic{background:var(--jk-bg2);border:1px solid var(--jk-line);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:12px;transition:.22s}
+.jk-topic:hover{border-color:rgba(255,59,92,.5);transform:translateY(-3px)}
+.jk-topic-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.jk-status{font-size:11.5px;flex:none;border-radius:999px;padding:2px 9px;background:rgba(56,232,200,.14);color:var(--jk-cyan);border:1px solid rgba(56,232,200,.35)}
+.jk-status.jk-done{background:rgba(255,209,102,.13);color:var(--jk-yellow);border-color:rgba(255,209,102,.35)}
+.jk-topic p{font-size:13.5px;color:var(--jk-mute)}
+.jk-topic ul{display:grid;gap:8px;margin-top:auto}
+.jk-topic li{font-size:13px;color:#c3c9d8;padding-left:16px;position:relative}
+.jk-topic li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;border-radius:2px;background:var(--jk-red)}
+.jk-topic-art{border-radius:12px;overflow:hidden;border:1px solid var(--jk-line)}
+.jk-topic-art img{width:100%;aspect-ratio:16/7;object-fit:cover}
+
+/* 作者 */
+.jk-authors{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.jk-author{background:var(--jk-bg2);border:1px solid var(--jk-line);border-radius:16px;padding:18px;transition:.22s}
+.jk-author:hover{border-color:rgba(56,232,200,.45);transform:translateY(-3px)}
+.jk-avatar{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;font-weight:800;font-size:19px;color:#0e1015;margin-bottom:12px}
+.jk-author h3{font-size:15.5px}
+.jk-author .jk-field{font-size:12.5px;color:var(--jk-cyan);margin:3px 0 8px}
+.jk-author p{font-size:13px;color:var(--jk-mute)}
+.jk-author .jk-meta{margin-top:10px}
+
+/* 评论/评价 */
+.jk-cmts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.jk-cmt{background:var(--jk-bg2);border:1px solid var(--jk-line);border-radius:14px;padding:16px 18px;border-left:3px solid var(--jk-red)}
+.jk-cmt:nth-child(even){border-left-color:var(--jk-cyan)}
+.jk-cmt q{display:block;font-size:14px;color:#d6dbe7;quotes:"“" "”"}
+.jk-cmt footer{margin-top:10px;font-size:12.5px;color:var(--jk-mute);display:flex;gap:10px;align-items:center}
+.jk-cmt footer b{color:var(--jk-text);font-weight:600}
+
+/* 解析长文 */
+.jk-essay{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:40px;align-items:start}
+.jk-essay h3{font-size:19px;margin:26px 0 10px;padding-left:14px;position:relative}
+.jk-essay h3::before{content:"";position:absolute;left:0;top:5px;bottom:5px;width:4px;border-radius:2px;background:var(--jk-red)}
+.jk-essay p{font-size:14.8px;color:#c3c9d8;margin-bottom:14px}
+.jk-essay p b{color:var(--jk-yellow)}
+.jk-aside{position:sticky;top:150px;display:grid;gap:16px}
+.jk-card{background:var(--jk-bg2);border:1px solid var(--jk-line);border-radius:16px;padding:18px}
+.jk-card h3{font-size:15.5px;margin-bottom:10px}
+.jk-card ul{display:grid;gap:9px}
+.jk-card li{font-size:13px;color:var(--jk-mute);display:flex;justify-content:space-between;gap:10px}
+.jk-card li b{color:var(--jk-cyan);font-variant-numeric:tabular-nums}
+
+/* 数据榜单 */
+.jk-rank{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.jk-rank-col{background:var(--jk-bg2);border:1px solid var(--jk-line);border-radius:16px;padding:18px}
+.jk-rank-col h3{font-size:15.5px;display:flex;align-items:center;gap:8px;margin-bottom:14px}
+.jk-rank-col h3 i{width:8px;height:8px;border-radius:2px;background:var(--jk-red);display:block}
+.jk-rank-col:nth-child(2) h3 i{background:var(--jk-cyan)}
+.jk-rank-col:nth-child(3) h3 i{background:var(--jk-yellow)}
+.jk-rank-col ol{display:grid;gap:10px;counter-reset:rk}
+.jk-rank-col li{counter-increment:rk;display:grid;grid-template-columns:22px minmax(0,1fr) auto;gap:8px;font-size:13px;color:#c3c9d8;align-items:baseline}
+.jk-rank-col li::before{content:counter(rk);color:var(--jk-mute);font-weight:700;font-variant-numeric:tabular-nums}
+.jk-rank-col li span{color:var(--jk-yellow);font-size:12px;font-variant-numeric:tabular-nums}
+
+/* 动态/更新 */
+.jk-news{display:grid;gap:12px}
+.jk-news-item{display:grid;grid-template-columns:96px minmax(0,1fr);gap:16px;padding:14px 16px;background:var(--jk-bg2);border:1px solid var(--jk-line);border-radius:12px;align-items:start}
+.jk-news-item time{font-size:12.5px;color:var(--jk-cyan);font-variant-numeric:tabular-nums}
+.jk-news-item h3{font-size:14.5px}
+.jk-news-item p{font-size:13px;color:var(--jk-mute);margin-top:3px}
+
+/* 合作/FAQ/联系 */
+jk-faq{}
+.jk-faq details{background:var(--jk-bg2);border:1px solid var(--jk-line);border-radius:12px;padding:14px 18px;margin-bottom:12px}
+.jk-faq summary{cursor:pointer;font-size:15px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.jk-faq summary::-webkit-details-marker{display:none}
+.jk-faq summary::after{content:"+";color:var(--jk-red);font-size:20px;line-height:1;transition:.2s;flex:none}
+.jk-faq details[open] summary::after{transform:rotate(45deg)}
+.jk-faq details p{font-size:13.5px;color:var(--jk-mute);margin-top:10px;padding-top:10px;border-top:1px dashed var(--jk-line)}
+
+.jk-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.jk-partner{background:var(--jk-bg2);border:1px solid var(--jk-line);border-radius:12px;padding:18px 14px;text-align:center;font-size:13.5px;color:#c3c9d8;transition:.2s}
+.jk-partner:hover{border-color:var(--jk-cyan);color:var(--jk-cyan)}
+.jk-partner small{display:block;font-size:11.5px;color:var(--jk-mute);margin-top:3px}
+
+.jk-contact{display:grid;grid-template-columns:1.1fr 1fr;gap:30px;align-items:stretch}
+.jk-contact-info{background:linear-gradient(150deg,#1e2230,#14161c);border:1px solid var(--jk-line);border-radius:16px;padding:26px}
+.jk-contact-info h3{font-size:19px;margin-bottom:12px}
+.jk-contact-info p{font-size:14px;color:var(--jk-mute);margin-bottom:8px}
+.jk-contact-info p b{color:var(--jk-cyan)}
+.jk-contact-cta{background:var(--jk-bg2);border:1px solid var(--jk-line);border-radius:16px;padding:26px;display:flex;flex-direction:column;justify-content:center;gap:14px}
+.jk-contact-cta h3{font-size:19px}
+.jk-contact-cta p{font-size:14px;color:var(--jk-mute)}
+
+/* 页脚 */
+.jk-footer{border-top:1px solid var(--jk-line);background:#0f1116;padding:52px 0 26px;margin-top:10px}
+.jk-foot-grid{display:grid;grid-template-columns:1.5fr repeat(3,1fr);gap:32px}
+.jk-foot-brand p{font-size:13.5px;color:var(--jk-mute);margin-top:14px;max-width:320px}
+.jk-footer h4{font-size:14px;margin-bottom:14px;letter-spacing:.04em}
+.jk-footer ul{display:grid;gap:8px}
+.jk-footer li a{font-size:13px;color:var(--jk-mute)}
+.jk-footer li a:hover{color:var(--jk-cyan)}
+.jk-foot-bottom{margin-top:38px;padding-top:20px;border-top:1px solid var(--jk-line);display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;font-size:12.5px;color:var(--jk-mute)}
+
+/* 回到顶部 & toast */
+.jk-top{position:fixed;right:22px;bottom:24px;width:44px;height:44px;border-radius:12px;background:var(--jk-red);color:#fff;display:grid;place-items:center;font-size:16px;box-shadow:0 10px 26px rgba(255,59,92,.4);opacity:0;pointer-events:none;transition:.25s;z-index:80}
+.jk-top.jk-show{opacity:1;pointer-events:auto}
+.jk-toast{position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);background:#fff;color:#14161c;font-size:13.5px;font-weight:600;padding:10px 20px;border-radius:999px;box-shadow:0 14px 34px rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:.25s;z-index:90}
+.jk-toast.jk-show{opacity:1;transform:translate(-50%,0)}
+.jk-modal{position:fixed;inset:0;background:rgba(6,7,10,.72);backdrop-filter:blur(4px);display:none;place-items:center;z-index:95;padding:20px}
+.jk-modal.jk-show{display:grid}
+.jk-modal-box{width:min(520px,100%);background:var(--jk-panel);border:1px solid var(--jk-line);border-radius:18px;padding:26px;position:relative;max-height:86vh;overflow:auto}
+.jk-modal-box h3{font-size:19px;margin-bottom:14px}
+.jk-modal-box p{font-size:14px;color:var(--jk-mute);margin-bottom:10px}
+.jk-modal-close{position:absolute;right:14px;top:12px;font-size:20px;color:var(--jk-mute);width:32px;height:32px;border-radius:8px;display:grid;place-items:center}
+.jk-modal-close:hover{background:var(--jk-bg2);color:#fff}
+.jk-modal-box .jk-btn{margin-top:8px}
+.jk-share-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+
+@media(max-width:1024px){
+  .jk-hero-grid,.jk-focus,.jk-essay,.jk-contact{grid-template-columns:minmax(0,1fr)}
+  .jk-authors{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .jk-topic-grid,.jk-rank{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .jk-aside{position:static}
+  .jk-foot-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:820px){
+  .jk-nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--jk-bg2);border-bottom:1px solid var(--jk-line);flex-direction:column;padding:12px 5%;gap:4px;z-index:65}
+  .jk-nav.jk-open{display:flex}
+  .jk-burger{display:inline-flex}
+  .jk-head-in{position:relative;flex-wrap:wrap}
+  .jk-search{order:3;width:100%;flex:1 1 100%}
+}
+@media(max-width:640px){
+  .jk-hero{padding:38px 0 6px}
+  .jk-stats{grid-template-columns:1fr 1fr}
+  .jk-authors,.jk-topic-grid,.jk-rank,.jk-cmts,.jk-partners{grid-template-columns:minmax(0,1fr)}
+  .jk-vrow{grid-template-columns:44px minmax(0,1fr);}
+  .jk-sec{padding:46px 0}
+  .jk-news-item{grid-template-columns:minmax(0,1fr)}
+  .jk-foot-grid{grid-template-columns:1fr;gap:24px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ============ 吸顶：公告条 + 页头 ============ -->
+<div class="jk-stick">
+  <div class="jk-announce" role="region" aria-label="站内公告">
+    <div class="jk-wrap jk-announce-in">
+      <span class="jk-announce-tag">官方发布</span>
+      <div class="jk-announce-marquee">
+        <span>【新增条目】11月21日上线《城市夹缝里的三十六小时》完整档案，同步放出未剪辑原片 47 分钟 ｜ 【企划报名】“真相影像·第三季”公开征集启动，投稿截止 12 月 20 日 ｜ 【功能更新】档案页支持章节跳转与时间戳留痕 ｜ 【下载】本季高清素材包已开放官方下载</span>
+      </div>
+      <a class="jk-announce-more" href="#jk-news">查看全部更新</a>
+    </div>
+  </div>
+
+  <header class="jk-header">
+    <div class="jk-wrap jk-head-in">
+      <a class="jk-logo" href="#top" aria-label="极品黑料网首页">
+        <span class="jk-logo-mark">黑</span>
+        <span class="jk-logo-txt"><strong>极品黑料网</strong><em>OFFICIAL VIDEO</em></span>
+      </a>
+      <button class="jk-burger" id="jk-burger" aria-label="展开导航" aria-expanded="false">☰</button>
+      <nav class="jk-nav" id="jk-nav" aria-label="主导航">
+        <a href="#jk-focus" class="jk-on">焦点档案</a>
+        <a href="#jk-videos">影像列表</a>
+        <a href="#jk-topics">专题企划</a>
+        <a href="#jk-authors">创作者</a>
+        <a href="#jk-rank">数据榜单</a>
+        <a href="#jk-essay">深度解析</a>
+        <a href="#jk-news">企业动态</a>
+        <a href="#jk-faq">帮助</a>
+      </nav>
+      <div class="jk-search">
+        <label class="jk-sr" for="jk-search-input">搜索档案、创作者或专题</label>
+        <input id="jk-search-input" type="search" placeholder="搜索档案 / 创作者 / 专题" autocomplete="off">
+        <button id="jk-search-btn" aria-label="搜索">⌕</button>
+        <div class="jk-search-hint" id="jk-search-hint"></div>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+
+  <!-- ============ 首屏 ============ -->
+  <section class="jk-hero" aria-labelledby="jk-h1">
+    <div class="jk-wrap jk-hero-grid">
+      <div>
+        <div class="jk-kicker"><i></i>极品黑料网 · 官方网站</div>
+        <h1 id="jk-h1">极品黑料网
+          <span class="jk-h1-sub">深扒档案与真相影像的原创视频门户，让每一份材料都经得起回看。</span>
+        </h1>
+        <p class="jk-hero-lede">我们是深耕档案影像领域的视频品牌与内容平台，以<b>专业</b>的核查流程、<b>高清</b>的原始素材与持续运营的创作者社区，把散落的线索整理成可被反复检验的影像条目。官网提供完整档案索引、原片下载与官方发布通道。</p>
+        <div class="jk-btns">
+          <a class="jk-btn jk-btn-main" href="#jk-focus">进入焦点档案 →</a>
+          <a class="jk-btn jk-btn-ghost" href="#jk-videos">浏览影像列表</a>
+          <button class="jk-btn jk-btn-ghost" id="jk-open-submit">投稿入口</button>
+        </div>
+        <div class="jk-stats">
+          <div class="jk-stat"><strong data-jk-count="1286">0</strong><span>已归档影像条目</span></div>
+          <div class="jk-stat"><strong data-jk-count="347">0</strong><span>持续运营创作者</span></div>
+          <div class="jk-stat"><strong data-jk-count="96">0</strong><span>累计公开原片（%）</span></div>
+        </div>
+      </div>
+      <figure class="jk-hero-art">
+        <img width="880" height="748" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 880 748'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23181b24'/%3E%3Cstop offset='1' stop-color='%232b1420'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='880' height='748' fill='url(%23g1)'/%3E%3Cg stroke='%23ff3b5c' stroke-width='2' fill='none' opacity='.55'%3E%3Cpath d='M60 120h300v180H60z'/%3E%3Cpath d='M420 90h380v120H420z'/%3E%3Cpath d='M420 250h240v210H420z'/%3E%3Cpath d='M700 250h120v120H700z'/%3E%3Cpath d='M60 340h300v190H60z'/%3E%3C/g%3E%3Cg fill='%2338e8c8' opacity='.85'%3E%3Ccircle cx='130' cy='190' r='26'/%3E%3Ccircle cx='520' cy='150' r='16'/%3E%3Ccircle cx='760' cy='310' r='20'/%3E%3C/g%3E%3Cg fill='%23ffd166' opacity='.9'%3E%3Crect x='80' y='380' width='120' height='12' rx='6'/%3E%3Crect x='80' y='406' width='200' height='12' rx='6'/%3E%3Crect x='80' y='432' width='150' height='12' rx='6'/%3E%3C/g%3E%3Cg fill='%23e8eaf0' opacity='.9'%3E%3Crect x='450' y='285' width='170' height='14' rx='7'/%3E%3Crect x='450' y='313' width='120' height='14' rx='7'/%3E%3C/g%3E%3Cg fill='%23ff3b5c'%3E%3Cpath d='M600 600l90-40v80z' opacity='.9'/%3E%3Crect x='60' y='600' width='480' height='10' rx='5' opacity='.5'/%3E%3Crect x='60' y='628' width='360' height='10' rx='5' opacity='.3'/%3E%3C/g%3E%3C/svg%3E" alt="极品黑料网官方档案影像主视觉：暗色网格中排布的线索框、时间轴与播放标识">
+        <figcaption class="jk-hero-badge"><span class="jk-live">LIVE</span>本期主推 ·《城市夹缝里的三十六小时》未剪辑原片已上线官网</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ 焦点内容 ============ -->
+  <section class="jk-sec" id="jk-focus" aria-labelledby="jk-focus-h">
+    <div class="jk-wrap">
+      <div class="jk-sec-head">
+        <div>
+          <div class="jk-eyebrow">FOCUS ARCHIVE</div>
+          <h2 id="jk-focus-h">焦点档案 · 本周值得反复回看的正片</h2>
+          <p class="jk-sec-sub">由极品黑料网官方编辑部与签约创作者共同完成，所有条目均标注素材来源、核查节点与更新状态，支持章节跳转与原文下载。</p>
+        </div>
+        <span class="jk-tag jk-tag-red">共 6 条本周更新</span>
+      </div>
+
+      <div class="jk-focus">
+        <article class="jk-focus-main">
+          <img width="720" height="405" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 405'%3E%3Crect width='720' height='405' fill='%231a1d26'/%3E%3Cg%3E%3Crect x='40' y='40' width='640' height='325' fill='none' stroke='%2338e8c8' stroke-width='2' opacity='.5'/%3E%3Ccircle cx='150' cy='150' r='58' fill='none' stroke='%23ff3b5c' stroke-width='3'/%3E%3Cpath d='M132 122l44 28-44 28z' fill='%23ff3b5c'/%3E%3Cg fill='%23ffd166'%3E%3Crect x='240' y='110' width='220' height='12' rx='6'/%3E%3Crect x='240' y='140' width='160' height='12' rx='6'/%3E%3C/g%3E%3Cg stroke='%23e8eaf0' opacity='.4' stroke-width='2'%3E%3Cpath d='M240 240h400'/%3E%3Cpath d='M240 270h340'/%3E%3Cpath d='M240 300h380'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E" alt="《城市夹缝里的三十六小时》焦点档案封面：播放标识与时间轴线条">
+          <div class="jk-focus-body">
+            <div><span class="jk-tag">深度测评</span><span class="jk-tag jk-tag-red">官方发布</span></div>
+            <h3>《城市夹缝里的三十六小时》：一份被反复核对的夜间记录</h3>
+            <p>摄制组跟随三位夜班工作者持续记录 36 小时，原片 47 分钟全部保留在官网，并附上时间戳索引。这不是情绪化的剪辑，而是一份可对照、可质疑、可下载的影像档案。</p>
+            <div class="jk-meta"><span>作者 · 沈砚</span><span>播放 <b>128.4万</b></span><span>点赞 <b>9.6万</b></span><span>收藏 <b>3.1万</b></span></div>
+            <div class="jk-acts">
+              <button class="jk-act" data-jk-like>♡ 点赞</button>
+              <button class="jk-act" data-jk-save>☆ 收藏</button>
+              <button class="jk-act" data-jk-copy>⧉ 复制链接</button>
+              <button class="jk-act" data-jk-report>⚑ 反馈</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="jk-list">
+          <article class="jk-item">
+            <div class="jk-item-idx">01</div>
+            <div>
+              <h3>同一段监控里的三个版本：时间线复原实验</h3>
+              <p>用三份来源不同的素材做交叉比对，逐帧说明差异出现在哪一秒。</p>
+              <div class="jk-meta"><span>作者 · 陆星河</span><span>播放 <b>76.2万</b></span></div>
+              <div class="jk-acts"><button class="jk-act" data-jk-like>♡ 点赞</button><button class="jk-act" data-jk-save>☆ 收藏</button></div>
+            </div>
+          </article>
+          <article class="jk-item">
+            <div class="jk-item-idx">02</div>
+            <div>
+              <h3>创作者访谈：我们为什么坚持放出未剪辑原片</h3>
+              <p>关于核查流程、素材授权与删改边界的一次长谈，约 28 分钟。</p>
+              <div class="jk-meta"><span>作者 · 岑叙述</span><span>播放 <b>54.9万</b></span></div>
+              <div class="jk-acts"><button class="jk-act" data-jk-like>♡ 点赞</button><button class="jk-act" data-jk-save>☆ 收藏</button></div>
+            </div>
+          </article>
+          <article class="jk-item">
+            <div class="jk-item-idx">03</div>
+            <div>
+              <h3>小城档案室：地方志里的十八封旧信</h3>
+              <p>在地文化与档案整理的结合，附带可下载的信件扫描件清单。</p>
+              <div class="jk-meta"><span>作者 · 白桦馆</span><span>播放 <b>41.3万</b></span></div>
+              <div class="jk-acts"><button class="jk-act" data-jk-like>♡ 点赞</button><button class="jk-act" data-jk-save>☆ 收藏</button></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 影像列表 ============ -->
+  <section class="jk-sec" id="jk-videos" aria-labelledby="jk-videos-h">
+    <div class="jk-wrap">
+      <div class="jk-sec-head">
+        <div>
+          <div class="jk-eyebrow">VIDEO INDEX</div>
+          <h2 id="jk-videos-h">影像列表 · 六条已上线的完整条目</h2>
+          <p class="jk-sec-sub">每条目均附标签、作者、数据与操作按钮；重点条目提供缩略图，其余以文字索引呈现，方便快速定位到具体章节。</p>
+        </div>
+      </div>
+
+      <div class="jk-vlist">
+        <article class="jk-vrow">
+          <div class="jk-vno">01</div>
+          <div>
+            <h3>夜市收摊后的四小时：一份关于清洁工的手持记录</h3>
+            <p>跟随清洁班组从凌晨一点工作到五点，全程手持拍摄，保留现场环境音与完整对话。</p>
+            <div><span class="jk-tag">日常记录</span><span class="jk-tag">在地文化</span></div>
+            <div class="jk-meta"><span>作者 · 沈砚</span><span>播放 <b>63.7万</b></span><span>点赞 <b>4.8万</b></span><span>收藏 <b>1.6万</b></span></div>
+            <div class="jk-acts">
+              <button class="jk-act" data-jk-like>♡ 点赞</button>
+              <button class="jk-act" data-jk-save>☆ 收藏</button>
+              <button class="jk-act" data-jk-copy>⧉ 复制链接</button>
+            </div>
+          </div>
+          <img class="jk-vthumb" width="120" height="68" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 68'%3E%3Crect width='120' height='68' fill='%232a1f14'/%3E%3Cg fill='%23ffd166'%3E%3Ccircle cx='30' cy='22' r='9'/%3E%3Ccircle cx='58' cy='16' r='5'/%3E%3Ccircle cx='92' cy='26' r='7'/%3E%3C/g%3E%3Cg stroke='%23ff9f43' stroke-width='2' opacity='.7'%3E%3Cpath d='M0 50h120'/%3E%3Cpath d='M10 60h100'/%3E%3C/g%3E%3C/svg%3E" alt="夜市收摊后清洁记录缩略图：暖色路灯与街道线条">
+        </article>
+
+        <article class="jk-vrow">
+          <div class="jk-vno">02</div>
+          <div>
+            <h3>公开资料的检索方法：三步把模糊线索变成可核验证据</h3>
+            <p>教程干货向，演示公开数据库、时间戳比对与截图归档的完整流程，附操作录屏。</p>
+            <div><span class="jk-tag">教程干货</span><span class="jk-tag">实用技巧</span></div>
+            <div class="jk-meta"><span>作者 · 陆星河</span><span>播放 <b>88.1万</b></span><span>点赞 <b>7.2万</b></span><span>收藏 <b>5.4万</b></span></div>
+            <div class="jk-acts">
+              <button class="jk-act" data-jk-like>♡ 点赞</button>
+              <button class="jk-act" data-jk-save>☆ 收藏</button>
+              <button class="jk-act" data-jk-copy>⧉ 复制链接</button>
+            </div>
+          </div>
+          <img class="jk-vthumb" width="120" height="68" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 68'%3E%3Crect width='120' height='68' fill='%2312252c'/%3E%3Cg stroke='%2338e8c8' stroke-width='2' fill='none'%3E%3Crect x='14' y='14' width='40' height='40'/%3E%3Crect x='66' y='24' width='38' height='22'/%3E%3C/g%3E%3Cg fill='%2338e8c8'%3E%3Crect x='22' y='22' width='20' height='4'/%3E%3Crect x='22' y='32' width='14' height='4'/%3E%3Crect x='72' y='32' width='24' height='4'/%3E%3C/g%3E%3C/svg%3E" alt="公开资料检索教程缩略图：表格与检索框图形">
+        </article>
+
+        <article class="jk-vrow">
+          <div class="jk-vno">03</div>
+          <div>
+            <h3>一份旧报纸引发的追问：地方档案里的三次修订</h3>
+            <p>从 1987 年的一则短讯出发，追溯同一事件在不同年份地方志中的表述变化。</p>
+            <div><span class="jk-tag">深度测评</span><span class="jk-tag">知识科普</span></div>
+            <div class="jk-meta"><span>作者 · 白桦馆</span><span>播放 <b>37.6万</b></span><span>点赞 <b>3.1万</b></span><span>收藏 <b>2.2万</b></span></div>
+            <div class="jk-acts">
+              <button class="jk-act" data-jk-like>♡ 点赞</button>
+              <button class="jk-act" data-jk-save>☆ 收藏</button>
+              <button class="jk-act" data-jk-copy>⧉ 复制链接</button>
+            </div>
+          </div>
+          <img class="jk-vthumb" width="120" height="68" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 68'%3E%3Crect width='120' height='68' fill='%23241d16'/%3E%3Cg fill='%23d9c7a7' opacity='.85'%3E%3Crect x='16' y='14' width='36' height='44'/%3E%3Crect x='60' y='18' width='44' height='36'/%3E%3C/g%3E%3Cg stroke='%238a7550' stroke-width='2'%3E%3Cpath d='M22 24h24M22 32h24M22 40h18'/%3E%3Cpath d='M66 28h32M66 36h26M66 44h30'/%3E%3C/g%3E%3C/svg%3E" alt="旧报纸与地方档案缩略图：两页泛黄纸面与文字行">
+        </article>
+
+        <article class="jk-vrow">
+          <div class="jk-vno">04</div>
+          <div>
+            <h3>镜头之外：拍摄团队如何处理被拍摄者的撤回请求</h3>
+            <p>创作幕后向，讨论授权、隐私遮蔽与二次编辑的实际操作规范。</p>
+            <div><span class="jk-tag">创作幕后</span><span class="jk-tag">行业观察</span></div>
+            <div class="jk-meta"><span>作者 · 岑叙述</span><span>播放 <b>29.4万</b></span><span>点赞 <b>2.4万</b></span><span>收藏 <b>1.1万</b></span></div>
+            <div class="jk-acts">
+              <button class="jk-act" data-jk-like>♡ 点赞</button>
+              <button class="jk-act" data-jk-save>☆ 收藏</button>
+              <button class="jk-act" data-jk-copy>⧉ 复制链接</button>
+            </div>
+          </div>
+          <img class="jk-vthumb" width="120" height="68" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 68'%3E%3Crect width='120' height='68' fill='%231c1a26'/%3E%3Cg stroke='%23a48cff' stroke-width='2' fill='none'%3E%3Cpath d='M18 50l20-26 16 18 10-12 20 20'/%3E%3C/g%3E%3Ccircle cx='88' cy='22' r='8' fill='%23ff3b5c' opacity='.85'/%3E%3Cg stroke='%23e8eaf0' opacity='.35' stroke-width='1.5'%3E%3Cpath d='M14 58h92'/%3E%3C/g%3E%3C/svg%3E" alt="创作幕后讨论缩略图：折线与录制标识构成的场景图">
+        </article>
+
+        <article class="jk-vrow">
+          <div class="jk-vno">05</div>
+          <div>
+            <h3>声音档案：一段被剪掉的七分钟环境录音</h3>
+            <p>以声景为主的实验影像，配字幕说明录音设备的摆放与后期处理。</p>
+            <div><span class="jk-tag">治愈影像</span><span class="jk-tag">艺术美学</span></div>
+            <div class="jk-meta"><span>作者 · 南屏晚</span><span>播放 <b>21.8万</b></span><span>点赞 <b>1.9万</b></span><span>收藏 <b>0.9万</b></span></div>
+            <div class="jk-acts">
+              <button class="jk-act" data-jk-like>♡ 点赞</button>
+              <button class="jk-act" data-jk-save>☆ 收藏</button>
+              <button class="jk-act" data-jk-copy>⧉ 复制链接</button>
+            </div>
+          </div>
+          <img class="jk-vthumb" width="120" height="68" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 68'%3E%3Crect width='120' height='68' fill='%23151820'/%3E%3Cg stroke='%2338e8c8' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M10 34h6l5-14 6 28 6-22 6 16 6-26 6 30 6-18 6 10 6-6h34'/%3E%3C/g%3E%3C/svg%3E" alt="声音档案缩略图：波形线条横贯画面">
+        </article>
+
+        <article class="jk-vrow">
+          <div class="jk-vno">06</div>
+          <div>
+            <h3>社区核查行动：两百位网友如何共同校对一份时间线</h3>
+            <p>记录一次公开协作的完整过程，包含分工、争议与最终版本的形成。</p>
+            <div><span class="jk-tag">社区共创</span><span class="jk-tag">人物访谈</span></div>
+            <div class="jk-meta"><span>作者 · 沈砚</span><span>播放 <b>45.5万</b></span><span>点赞 <b>3.9万</b></span><span>收藏 <b>1.7万</b></span></div>
+            <div class="jk-acts">
+              <button class="jk-act" data-jk-like>♡ 点赞</button>
+              <button class="jk-act" data-jk-save>☆ 收藏</button>
+              <button class="jk-act" data-jk-copy>⧉ 复制链接</button>
+            </div>
+          </div>
+          <img class="jk-vthumb" width="120" height="68" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 68'%3E%3Crect width='120' height='68' fill='%23171822'/%3E%3Cg fill='%23ff3b5c'%3E%3Ccircle cx='24' cy='22' r='7'/%3E%3Ccircle cx='48' cy='34' r='7' opacity='.8'/%3E%3Ccircle cx='74' cy='20' r='7' opacity='.65'/%3E%3Ccircle cx='96' cy='40' r='7' opacity='.5'/%3E%3C/g%3E%3Cg stroke='%23ffd166' stroke-width='2' opacity='.7'%3E%3Cpath d='M24 22l24 12 26-14 22 20'/%3E%3C/g%3E%3C/svg%3E" alt="社区核查行动缩略图：多人节点由连线串起的图示">
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 专题企划 ============ -->
+  <section class="jk-sec" id="jk-topics" aria-labelledby="jk-topics-h">
+    <div class="jk-wrap">
+      <div class="jk-sec-head">
+        <div>
+          <div class="jk-eyebrow">SERIES</div>
+          <h2 id="jk-topics-h">专题企划 · 三条正在更新的长线档案</h2>
+          <p class="jk-sec-sub">专题由极品黑料网官方企划组牵头，公开征集线索、投票排序，并在评论区同步更新进度，形成可持续运营的社区协作机制。</p>
+        </div>
+      </div>
+
+      <div class="jk-topic-grid">
+        <article class="jk-topic">
+          <div class="jk-topic-art">
+            <img width="420" height="184" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 184'%3E%3Crect width='420' height='184' fill='%231d1420'/%3E%3Cg fill='none' stroke='%23ff3b5c' stroke-width='2' opacity='.7'%3E%3Ccircle cx='110' cy='92' r='46'/%3E%3Ccircle cx='110' cy='92' r='26'/%3E%3Cpath d='M110 30v124M48 92h124'/%3E%3C/g%3E%3Cg fill='%2338e8c8' opacity='.8'%3E%3Crect x='220' y='46' width='160' height='10' rx='5'/%3E%3Crect x='220' y='70' width='120' height='10' rx='5'/%3E%3Crect x='220' y='94' width='140' height='10' rx='5'/%3E%3C/g%3E%3Cg fill='%23ffd166' opacity='.7'%3E%3Crect x='220' y='126' width='90' height='10' rx='5'/%3E%3C/g%3E%3C/svg%3E" alt="专题《真相影像·第三季》封面：取景框与档案条目图形">
+          </div>
+          <div class="jk-topic-head">
+            <h3>真相影像 · 第三季</h3>
+            <span class="jk-status">更新中</span>
+          </div>
+          <p>以“可核验的影像”为主题，邀请创作者提交完整原片与素材说明，编辑部提供核查支持。</p>
+          <ul>
+            <li>第 1 集 · 未剪辑的三十六小时</li>
+            <li>第 2 集 · 三个版本的监控时间线</li>
+            <li>第 3 集 · 公开资料的检索现场</li>
+          </ul>
+        </article>
+
+        <article class="jk-topic">
+          <div class="jk-topic-art">
+            <img width="420" height="184" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 184'%3E%3Crect width='420' height='184' fill='%2312181d'/%3E%3Cg stroke='%2338e8c8' stroke-width='2' fill='none' opacity='.75'%3E%3Cpath d='M30 150L96 90l54 34 62-62 74 40 74-52'/%3E%3C/g%3E%3Cg fill='%2338e8c8'%3E%3Ccircle cx='96' cy='90' r='6'/%3E%3Ccircle cx='212' cy='62' r='6'/%3E%3Ccircle cx='360' cy='50' r='6'/%3E%3C/g%3E%3Cg fill='%23ffd166' opacity='.85'%3E%3Crect x='30' y='164' width='360' height='6' rx='3'/%3E%3C/g%3E%3C/svg%3E" alt="专题《小城档案室》封面：上升折线与节点标记">
+          </div>
+          <div class="jk-topic-head">
+            <h3>小城档案室</h3>
+            <span class="jk-status jk-done">第一季完结</span>
+          </div>
+          <p>走进地方志、旧报刊与家庭相册，记录小城里的普通人如何保存自己的历史。</p>
+          <ul>
+            <li>地方志里的十八封旧信</li>
+            <li>一座老剧院的最后一次放映</li>
+            <li>县城照相馆的四十年底片</li>
+          </ul>
+        </article>
+
+        <article class="jk-topic">
+          <div class="jk-topic-art">
+            <img width="420" height="184" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 184'%3E%3Crect width='420' height='184' fill='%23201a12'/%3E%3Cg fill='%23ffd166' opacity='.9'%3E%3Crect x='40' y='40' width='90' height='104' rx='6'/%3E%3Crect x='150' y='64' width='90' height='80' rx='6'/%3E%3Crect x='260' y='30' width='90' height='114' rx='6'/%3E%3C/g%3E%3Cg fill='%23201a12'%3E%3Crect x='54' y='58' width='62' height='8' rx='4'/%3E%3Crect x='54' y='76' width='48' height='8' rx='4'/%3E%3Crect x='164' y='82' width='62' height='8' rx='4'/%3E%3Crect x='274' y='48' width='62' height='8' rx='4'/%3E%3C/g%3E%3C/svg%3E" alt="专题《创作者的桌面》封面：三张并列的档案卡片">
+          </div>
+          <div class="jk-topic-head">
+            <h3>创作者的桌面</h3>
+            <span class="jk-status jk-done">已归档</span>
+          </div>
+          <p>把镜头转向创作者本身：他们的素材盘、剪辑台与核查笔记长什么样。</p>
+          <ul>
+            <li>沈砚：一柜子按日期编码的硬盘</li>
+            <li>陆星河：手写检索笔记的二十年</li>
+            <li>南屏晚：只录声音的旅行者</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 创作者 ============ -->
+  <section class="jk-sec" id="jk-authors" aria-labelledby="jk-authors-h">
+    <div class="jk-wrap">
+      <div class="jk-sec-head">
+        <div>
+          <div class="jk-eyebrow">CREATORS</div>
+          <h2 id="jk-authors-h">创作者矩阵 · 与社区一起成长的六位档案作者</h2>
+          <p class="jk-sec-sub">平台为创作者提供选题支持、素材核查与官方发布通道，所有作品均标注原创与正版素材来源，形成值得信赖的内容生态。</p>
+        </div>
+      </div>
+
+      <div class="jk-authors">
+        <article class="jk-author">
+          <div class="jk-avatar" style="background:linear-gradient(140deg,#ff3b5c,#7a0f24);color:#fff">沈</div>
+          <h3>沈砚</h3>
+          <div class="jk-field">深度记录 / 城市夜行</div>
+          <p>长期跟踪城市夜间工作者，擅长长时间连续拍摄与原始素材整理，坚持放出未剪辑版本，作品多次入选站内年度档案。</p>
+          <div class="jk-meta"><span>作品 <b>86</b></span><span>粉丝 <b>34.2万</b></span></div>
+        </article>
+        <article class="jk-author">
+          <div class="jk-avatar" style="background:linear-gradient(140deg,#38e8c8,#0f7f6c)">陆</div>
+          <h3>陆星河</h3>
+          <div class="jk-field">教程干货 / 核查方法</div>
+          <p>前调查记者，专注公开资料检索与交叉验证，把复杂流程拆成可复现的步骤，被称为站内最好用的检索教程作者。</p>
+          <div class="jk-meta"><span>作品 <b>112</b></span><span>粉丝 <b>41.8万</b></span></div>
+        </article>
+        <article class="jk-author">
+          <div class="jk-avatar" style="background:linear-gradient(140deg,#ffd166,#b58500)">白</div>
+          <h3>白桦馆</h3>
+          <div class="jk-field">地方档案 / 在地文化</div>
+          <p>民间档案整理者，走访县市志办公室与旧书店，擅长从一份旧报纸里牵出一条完整线索，作品节奏克制、细节扎实。</p>
+          <div class="jk-meta"><span>作品 <b>64</b></span><span>粉丝 <b>22.6万</b></span></div>
+        </article>
+        <article class="jk-author">
+          <div class="jk-avatar" style="background:linear-gradient(140deg,#a48cff,#5b3fbf);color:#fff">岑</div>
+          <h3>岑叙述</h3>
+          <div class="jk-field">人物访谈 / 伦理讨论</div>
+          <p>访谈型创作者，关注影像伦理与授权边界，常与被拍摄者共同回看素材，用对话呈现选择背后的犹疑与坚持。</p>
+          <div class="jk-meta"><span>作品 <b>73</b></span><span>粉丝 <b>19.4万</b></span></div>
+        </article>
+        <article class="jk-author">
+          <div class="jk-avatar" style="background:linear-gradient(140deg,#7fd6ff,#1b6e9c);color:#0e1015">南</div>
+          <h3>南屏晚</h3>
+          <div class="jk-field">声景 / 治愈影像</div>
+          <p>只带录音设备出门的创作者，用环境声与极简画面记录城市边缘，作品常被听众当作深夜工作的背景音。</p>
+          <div class="jk-meta"><span>作品 <b>58</b></span><span>粉丝 <b>16.9万</b></span></div>
+        </article>
+        <article class="jk-author">
+          <div class="jk-avatar" style="background:linear-gradient(140deg,#ff9f43,#a35400);color:#0e1015">顾</div>
+          <h3>顾行舟</h3>
+          <div class="jk-field">数据整理 / 时间线复原</div>
+          <p>擅长把零散的时间点整理成可读的时间线与表格，为多个专题提供结构支持，被社区称为站内的“时间线工程师”。</p>
+          <div class="jk-meta"><span>作品 <b>49</b></span><span>粉丝 <b>13.7万</b></span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 榜单 + 评价 ============ -->
+  <section class="jk-sec" id="jk-rank" aria-labelledby="jk-rank-h">
+    <div class="jk-wrap">
+      <div class="jk-sec-head">
+        <div>
+          <div class="jk-eyebrow">DATA &amp; VOICES</div>
+          <h2 id="jk-rank-h">数据榜单与社区口碑：热度、新人、口碑三个维度</h2>
+          <p class="jk-sec-sub">榜单按近 30 天播放、完播与收藏加权计算；社区评价来自真实用户，保留原始长度与语气，不做统一润色。</p>
+        </div>
+      </div>
+
+      <div class="jk-rank">
+        <div class="jk-rank-col">
+          <h3><i></i>热度榜 · 本周</h3>
+          <ol>
+            <li><span>城市夹缝里的三十六小时</span><span>128.4万</span></li>
+            <li><span>三步完成公开资料检索</span><span>88.1万</span></li>
+            <li><span>同一段监控的三个版本</span><span>76.2万</span></li>
+            <li><span>夜市收摊后的四小时</span><span>63.7万</span></li>
+            <li><span>社区核查行动全记录</span><span>45.5万</span></li>
+          </ol>
+        </div>
+        <div class="jk-rank-col">
+          <h3><i></i>新人榜 · 本月</h3>
+          <ol>
+            <li><span>顾行舟 · 时间线复原</span><span>13.7万</span></li>
+            <li><span>旧胶片计划 · 家庭影像</span><span>9.4万</span></li>
+            <li><span>夜班电台 · 声景</span><span>7.8万</span></li>
+            <li><span>巷口档案 · 街巷记录</span><span>6.1万</span></li>
+            <li><span>纸边笔记 · 手稿整理</span><span>4.9万</span></li>
+          </ol>
+        </div>
+        <div class="jk-rank-col">
+          <h3><i></i>口碑榜 · 高分条目</h3>
+          <ol>
+            <li><span>一份旧报纸引发的追问</span><span>9.6</span></li>
+            <li><span>镜头之外：撤回请求</span><span>9.5</span></li>
+            <li><span>地方志里的十八封旧信</span><span>9.5</span></li>
+            <li><span>声音档案：七分钟</span><span>9.2</span></li>
+            <li><span>未剪辑原片的核查流程</span><span>9.1</span></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="jk-cmts" style="margin-top:34px">
+        <blockquote class="jk-cmt">
+          <q>第一次看到把未剪辑原片完整放出来的平台，时间戳能直接跳到对应段落，看完再回看一遍，感受完全不同。</q>
+          <footer><b>@夜航船</b><span>2026-11-18</span><span>点赞 1.2万</span></footer>
+        </blockquote>
+        <blockquote class="jk-cmt">
+          <q>检索教程那期我照着操作了一遍，真的把一条模糊线索理清楚了。作为普通用户，这种可复现的内容太少见。</q>
+          <footer><b>@清单星人</b><span>2026-11-19</span><span>点赞 8643</span></footer>
+        </blockquote>
+        <blockquote class="jk-cmt">
+          <q>希望专题页能加个进度提示，有时候不知道下一集什么时候更新。</q>
+          <footer><b>@凌晨四点</b><span>2026-11-20</span><span>点赞 512</span></footer>
+        </blockquote>
+        <blockquote class="jk-cmt">
+          <q>声音档案那期我循环了三遍。没有多余配乐，只有环境声，反而更像真的在某个街角待过。</q>
+          <footer><b>@漫游半径</b><span>2026-11-17</span><span>点赞 6781</span></footer>
+        </blockquote>
+        <blockquote class="jk-cmt">
+          <q>评论区里大家互相校对时间线，这种氛围很难得。平台把分工写清楚，参与者知道自己在做什么。</q>
+          <footer><b>@半页笔记</b><span>2026-11-16</span><span>点赞 4290</span></footer>
+        </blockquote>
+        <blockquote class="jk-cmt">
+          <q>视频质量稳定，但有两期字幕字号偏小，移动端看起来有点吃力，建议官方优化一下阅读体验。</q>
+          <footer><b>@陈皮水</b><span>2026-11-15</span><span>点赞 1184</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 深度解析长文 ============ -->
+  <section class="jk-sec" id="jk-essay" aria-labelledby="jk-essay-h">
+    <div class="jk-wrap">
+      <div class="jk-sec-head">
+        <div>
+          <div class="jk-eyebrow">DEEP DIVE</div>
+          <h2 id="jk-essay-h">深度解析：极品黑料网如何把“黑料”做成可信的档案</h2>
+          <p class="jk-sec-sub">这是本站对企业定位、内容方法与社区机制的一次完整说明，约八百五十字，建议在进入具体条目之前先读一遍。</p>
+        </div>
+      </div>
+
+      <div class="jk-essay">
+        <div>
+          <h3>名称与定位：为什么保留一个锋利的外壳</h3>
+          <p>“极品黑料网”这个名字天然带着一种尖锐感。我们没有刻意把它改成更温和的品牌词，因为锋利的壳恰好提醒我们：被称作“黑料”的东西，往往是最容易被情绪加工、被剪辑扭曲、被二手传播消耗的部分。作为一家持续运营的视频品牌与企业内容平台，我们把这份锋利收进流程里——每一条影像都要标注拍摄时间、素材来源、剪辑版本与核查节点，官方发布页保留可下载的原始文件。观众可以不同意我们的判断，但至少能看见判断是怎么来的。官网首页的所有条目都遵循同一套元数据规范，这不是装饰，而是我们与用户之间最基本的约定。</p>
+          <p>因此在版面设计上，页面采用深色高级灰打底，用荧光红标记需要被注意的动作，用青色标记可核实的数据。这样的视觉语言服务于一个朴素目标：让人一眼分清“事实”“推断”与“情绪”。当用户点开《城市夹缝里的三十六小时》，他会先看到原片时长、拍摄设备、录音条件、参与者的授权说明，然后才是内容本身。这种顺序在行业内并不常见，但它是我们理解的“专业”。</p>
+
+          <h3>内容方法：三步核查，把线索变成条目</h3>
+          <p>我们的核查方法可以拆成三步。第一步是<b>来源登记</b>：任何线索进入选题池，都必须登记最初来源、获取时间与保存方式，截图与录屏同步归档，避免“后来找不到原文”的困境。第二步是<b>交叉比对</b>：同一事件至少寻找两份独立来源，若无法取得，则在条目页显著标注“单一来源”，并把这一限制写进摘要，而不是藏进脚注。第三步是<b>可复现呈现</b>：把核查过程本身拍下来，让观众看到检索关键词、比对界面与讨论分歧。教程类内容之所以在本站表现突出，正是因为它们公开了方法，而不是只给结论。</p>
+          <p>这套方法带来一个副产品：条目会“长”。一条影像上线后，随着新素材出现，我们会更新版本号并保留历史版本，形成时间线。观众可以在同一页面看到第 1 版与第 3 版的差异，这种可见的修订记录，比任何“绝对真实”的宣称都更接近真实。我们也因此建立了站内的版本规范：主版本、修订版、补充材料三个层级，分别对应不同的展示位置与更新频率。</p>
+
+          <h3>社区机制：创作者、观众与编辑部的三角协作</h3>
+          <p>如果把平台比作一间档案室，创作者是搬运与整理的人，观众是最严格的审阅者，编辑部则负责流程与边界。我们为创作者提供选题支持与素材核查，也为他们保留说“不”的权利——当被拍摄者提出撤回请求，创作者可以暂停发布，平台不因此降低推荐权重。这种安排看起来牺牲了更新速度，却换来了更稳定的社区信任。站内长期运营的六位核心作者，几乎都经历过至少一次“因为伦理问题推迟上线”的讨论，而这些讨论后来被做成访谈，反过来成为平台最有说服力的内容之一。</p>
+          <p>观众端的参与同样被结构化。专题企划开放线索征集与投票，社区核查行动把校对任务拆成可领取的小块，参与者能看到自己负责的段落被采用在哪一版。我们不做“转发抽奖”式的热闹，而是把参与变成看得见的贡献记录。正因如此，评论区里常见“我核对过这一段”的留言，而不是单纯的情绪表达。对一家以“黑料”为名的视频企业来说，这种冷静的社区气质可能略显反常，但它确实让内容生态更可持续。</p>
+
+          <h3>企业责任：在流量与边界之间</h3>
+          <p>必须承认，这类内容天然靠近隐私与伤害的边缘。我们的处理原则写在官方帮助页里：不发布未成年人可识别信息，不对未核实的个人指控做定性表述，不提供可被直接用于骚扰的位置细节。遇到争议，编辑部会先下线、再核查、后说明，而不是先用流量换时间。这样的选择会让部分条目失去“爆点”，但它让平台能够长期存在。我们更愿意被称作值得信赖的档案平台，而不是一次性的猎奇入口。</p>
+          <p>未来的方向也很明确：继续完善版本系统，开放更多原始素材的下载与引用规范，把核查方法做成可教学的公开课，并邀请更多垂直领域的创作者加入。我们希望“极品黑料网”最终成为一个有点矛盾的名字——锋利，但克制；直接，但可核验。这就是我们理解的品牌故事，也是这家企业愿意长期承担的社会责任。</p>
+        </div>
+
+        <aside class="jk-aside">
+          <div class="jk-card">
+            <h3>档案速览</h3>
+            <ul>
+              <li><span>已归档条目</span><b>1286</b></li>
+              <li><span>公开原片比例</span><b>96%</b></li>
+              <li><span>平均核查轮次</span><b>2.7</b></li>
+              <li><span>签约创作者</span><b>347</b></li>
+              <li><span>专题企划</span><b>18</b></li>
+            </ul>
+          </div>
+          <div class="jk-card">
+            <h3>阅读提示</h3>
+            <ul>
+              <li><span>建议先读条目摘要与版本号</span></li>
+              <li><span>原始素材可在条目页下载</span></li>
+              <li><span>争议内容以官方说明为准</span></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 企业动态 + 合作 + FAQ ============ -->
+  <section class="jk-sec" id="jk-news" aria-labelledby="jk-news-h">
+    <div class="jk-wrap">
+      <div class="jk-sec-head">
+        <div>
+          <div class="jk-eyebrow">UPDATES</div>
+          <h2 id="jk-news-h">企业动态 · 官方发布与内容更新</h2>
+          <p class="jk-sec-sub">这里记录极品黑料网的产品更新、企划进度与合作信息，所有公告以本页为准。</p>
+        </div>
+      </div>
+
+      <div class="jk-news">
+        <article class="jk-news-item">
+          <time datetime="2026-11-21">2026-11-21</time>
+          <div>
+            <h3>《城市夹缝里的三十六小时》完整档案上线</h3>
+            <p>同步放出 47 分钟未剪辑原片与时间戳索引，支持章节跳转与素材包下载。</p>
+          </div>
+        </article>
+        <article class="jk-news-item">
+          <time datetime="2026-11-19">2026-11-19</time>
+          <div>
+            <h3>“真相影像·第三季”公开征集启动</h3>
+            <p>面向所有创作者征集完整原片与核查说明，投稿截止 12 月 20 日，入选作品将获得官方发布支持。</p>
+          </div>
+        </article>
+        <article class="jk-news-item">
+          <time datetime="2026-11-16">2026-11-16</time>
+          <div>
+            <h3>档案页新增版本对比功能</h3>
+            <p>同一条目的历史版本可并排查看，修订记录与补充材料分别标注，便于引用与核对。</p>
+          </div>
+        </article>
+        <article class="jk-news-item">
+          <time datetime="2026-11-12">2026-11-12</time>
+          <div>
+            <h3>与三家地方档案馆达成素材合作</h3>
+            <p>合作方将开放部分数字化馆藏用于非商业影像创作，具体范围与引用规范见帮助页。</p>
+          </div>
+        </article>
+      </div>
+
+      <h3 style="margin:40px 0 16px">合作品牌与伙伴</h3>
+      <div class="jk-partners">
+        <div class="jk-partner">城南档案馆<small>素材合作</small></div>
+        <div class="jk-partner">青灰影像工作室<small>联合企划</small></div>
+        <div class="jk-partner">夜航电台<small>声景支持</small></div>
+        <div class="jk-partner">纸边书局<small>内容共建</small></div>
+      </div>
+
+      <h3 style="margin:40px 0 16px" id="jk-faq">常见问题</h3>
+      <div class="jk-faq">
+        <details>
+          <summary>极品黑料网的内容是如何核查的？</summary>
+          <p>采用来源登记、交叉比对、可复现呈现三步流程。每条条目页都会标注来源数量与核查轮次，单一来源会显著提示，核查过程尽量以录屏或截图形式公开。</p>
+        </details>
+        <details>
+          <summary>为什么有些视频保留了未剪辑原片？</summary>
+          <p>剪辑不可避免地带入取舍。保留原片是让观众自行判断的一种方式，也便于其他创作者引用与复核。原片与成片分别标注时长与版本号。</p>
+        </details>
+        <details>
+          <summary>普通用户如何参与社区核查？</summary>
+          <p>在专题页领取校对任务，按提示核对指定时间段，提交截图与说明。被采用的贡献会记录在版本说明中，并显示你的社区贡献编号。</p>
+        </details>
+        <details>
+          <summary>被拍摄者可以要求撤回素材吗？</summary>
+          <p>可以。请在条目页提交反馈，说明具体时间点与诉求，编辑部会在核查后决定遮蔽、删改或下线，并同步更新版本记录。</p>
+        </details>
+        <details>
+          <summary>投稿需要准备哪些材料？</summary>
+          <p>完整原片、素材来源说明、拍摄时间与地点、涉及人员的授权情况，以及一段三百字以内的选题说明。缺少授权材料的稿件会先进入待补充状态。</p>
+        </details>
+        <details>
+          <summary>内容可以转载或二次创作吗？</summary>
+          <p>标注原创的条目需获得作者与平台双方授权；官方公开的素材包按页面说明的范围使用，引用时请保留来源与版本号。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 联系与投稿 ============ -->
+  <section class="jk-sec" id="jk-contact" aria-labelledby="jk-contact-h">
+    <div class="jk-wrap">
+      <div class="jk-sec-head">
+        <div>
+          <div class="jk-eyebrow">CONTACT</div>
+          <h2 id="jk-contact-h">联系与投稿 · 官方通道</h2>
+          <p class="jk-sec-sub">无论你是创作者、合作方还是希望更正信息的当事人，都可以通过以下方式联系企业团队。</p>
+        </div>
+      </div>
+
+      <div class="jk-contact">
+        <div class="jk-contact-info">
+          <h3>官方联络</h3>
+          <p>投稿与选题：<b>submit@example.com</b></p>
+          <p>合作与授权：<b>partner@example.com</b></p>
+          <p>信息更正与撤回：<b>review@example.com</b></p>
+          <p>工作时间：周一至周五 10:00–19:00，节假日顺延。</p>
+          <p style="margin-top:14px">我们会在三个工作日内回复，涉及隐私与安全的请求优先处理。</p>
+        </div>
+        <div class="jk-contact-cta">
+          <h3>把线索交给档案室</h3>
+          <p>提交后你会收到一个编号，可在进度查询中查看核查状态。请勿在公开评论区提交涉及个人隐私的材料。</p>
+          <button class="jk-btn jk-btn-main" id="jk-open-submit2">打开投稿入口</button>
+          <button class="jk-btn jk-btn-ghost" data-jk-copy>复制本站链接分享</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="jk-footer">
+  <div class="jk-wrap">
+    <div class="jk-foot-grid">
+      <div class="jk-foot-brand">
+        <div class="jk-logo">
+          <span class="jk-logo-mark">黑</span>
+          <span class="jk-logo-txt"><strong>极品黑料网</strong><em>OFFICIAL VIDEO</em></span>
+        </div>
+        <p>极品黑料网官方网站 · 版权所有 · 持续运营中。我们以原创、正版、高清的档案影像，服务创作者与企业，构建值得信赖的内容生态。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#jk-focus">焦点档案</a></li>
+          <li><a href="#jk-videos">影像列表</a></li>
+          <li><a href="#jk-topics">专题企划</a></li>
+          <li><a href="#jk-rank">数据榜单</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#jk-essay">品牌故事</a></li>
+          <li><a href="#jk-authors">创作者矩阵</a></li>
+          <li><a href="#jk-news">企业动态</a></li>
+          <li><a href="#jk-faq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与</h4>
+        <ul>
+          <li><a href="#jk-contact">联系投稿</a></li>
+          <li><a href="#jk-contact">合作授权</a></li>
+          <li><a href="#jk-faq">素材规范</a></li>
+          <li><a href="#jk-news">更新日志</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="jk-foot-bottom">
+      <span>© 2026 极品黑料网 · 官方网站 · 沪ICP备00000000号-1</span>
+      <span>本页内容为原创与正版素材整理，引用请注明来源与版本</span>
+    </div>
+  </div>
+</footer>
+
+<button class="jk-top" id="jk-top" aria-label="回到顶部">↑</button>
+<div class="jk-toast" id="jk-toast" role="status" aria-live="polite"></div>
+
+<div class="jk-modal" id="jk-modal" role="dialog" aria-modal="true" aria-labelledby="jk-modal-title">
+  <div class="jk-modal-box">
+    <button class="jk-modal-close" id="jk-modal-close" aria-label="关闭">×</button>
+    <h3 id="jk-modal-title">投稿入口</h3>
+    <p>请将完整原片、素材来源说明与授权材料发送至官方邮箱，或在下方唤起邮件客户端。</p>
+    <p>投稿截止：2026 年 12 月 20 日。编辑团队会在三个工作日内回复，并为每份稿件分配核查编号。</p>
+    <div class="jk-share-row">
+      <a class="jk-btn jk-btn-main" href="mailto:submit@example.com">发送投稿邮件</a>
+      <button class="jk-btn jk-btn-ghost" data-jk-copy>复制联系方式</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('jk-toast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('jk-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('jk-show'); }, 2000);
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('jk-burger');
+  var nav = document.getElementById('jk-nav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('jk-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.textContent = open ? '×' : '☰';
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A' && nav.classList.contains('jk-open')){
+      nav.classList.remove('jk-open');
+      burger.setAttribute('aria-expanded','false');
+      burger.textContent = '☰';
+    }
+  });
+
+  /* 搜索反馈 */
+  var input = document.getElementById('jk-search-input');
+  var hint = document.getElementById('jk-search-hint');
+  var btn = document.getElementById('jk-search-btn');
+  function doSearch(){
+    var q = input.value.trim();
+    if(!q){
+      hint.innerHTML = '输入关键词试试，例如：<b>时间线</b>、<b>原片</b>、<b>地方档案</b>';
+      hint.classList.add('jk-show');
+      return;
+    }
+    var pool = ['城市夹缝里的三十六小时','三步完成公开资料检索','同一段监控的三个版本','夜市收摊后的四小时','社区核查行动全记录','小城档案室','真相影像·第三季','创作者的桌面'];
+    var hit = pool.filter(function(t){ return t.indexOf(q) > -1; });
+    if(hit.length){
+      hint.innerHTML = '为你找到 <b>' + hit.length + '</b> 条相关条目：' + hit.map(function(t){ return '<div style="padding:4px 0">· ' + t + '</div>'; }).join('');
+    }else{
+      hint.innerHTML = '暂未直接匹配「<b>' + q + '</b>」，已为你推荐：<div style="padding:4px 0">· 三步完成公开资料检索</div><div>· 真相影像·第三季</div>';
+    }
+    hint.classList.add('jk-show');
+  }
+  btn.addEventListener('click', doSearch);
+  input.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ doSearch(); } });
+  input.addEventListener('input', function(){ if(!input.value.trim()){ hint.classList.remove('jk-show'); } });
+  document.addEventListener('click', function(e){
+    if(!hint.contains(e.target) && e.target !== input && e.target !== btn){
+      hint.classList.remove('jk-show');
+    }
+  });
+
+  /* 点赞 / 收藏 */
+  document.addEventListener('click', function(e){
+    var like = e.target.closest('[data-jk-like]');
+    if(like){
+      var on = like.classList.toggle('jk-liked');
+      like.textContent = on ? '♥ 已赞' : '♡ 点赞';
+      toast(on ? '已点赞，感谢支持原创' : '已取消点赞');
+      return;
+    }
+    var save = e.target.closest('[data-jk-save]');
+    if(save){
+      var s = save.classList.toggle('jk-saved');
+      save.textContent = s ? '★ 已收藏' : '☆ 收藏';
+      toast(s ? '已加入收藏夹' : '已取消收藏');
+      return;
+    }
+  });
+
+  /* 复制链接 */
+  function copyLink(){
+    var text = '极品黑料网 · 官方档案影像';
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ toast('链接已复制到剪贴板'); }).catch(function(){ toast('复制失败，请手动选择文本'); });
+    }else{
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      try{ document.execCommand('copy'); toast('链接已复制到剪贴板'); }catch(err){ toast('复制失败，请手动选择文本'); }
+      document.body.removeChild(ta);
+    }
+  }
+  document.addEventListener('click', function(e){
+    if(e.target.closest('[data-jk-copy]')){ copyLink(); }
+  });
+
+  /* 反馈 / 举报弹窗 */
+  var modal = document.getElementById('jk-modal');
+  var modalTitle = document.getElementById('jk-modal-title');
+  function openModal(title){
+    modalTitle.textContent = title;
+    modal.classList.add('jk-show');
+  }
+  document.getElementById('jk-modal-close').addEventListener('click', function(){ modal.classList.remove('jk-show'); });
+  modal.addEventListener('click', function(e){ if(e.target === modal){ modal.classList.remove('jk-show'); } });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape'){ modal.classList.remove('jk-show'); } });
+
+  document.addEventListener('click', function(e){
+    var rep = e.target.closest('[data-jk-report]');
+    if(rep){
+      openModal('反馈与举报');
+      toast('已打开反馈通道');
+    }
+  });
+  document.getElementById('jk-open-submit').addEventListener('click', function(){ openModal('投稿入口'); });
+  document.getElementById('jk-open-submit2').addEventListener('click', function(){ openModal('投稿入口'); });
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('jk-top');
+  window.addEventListener('scroll', function(){
+    if(window.pageYOffset > 520){ topBtn.classList.add('jk-show'); }
+    else{ topBtn.classList.remove('jk-show'); }
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+
+  /* 数字滚动 */
+  var counters = document.querySelectorAll('[data-jk-count]');
+  var done = false;
+  function runCount(){
+    if(done){ return; }
+    var trigger = document.querySelector('.jk-stats');
+    if(!trigger){ return; }
+    var rect = trigger.getBoundingClientRect();
+    if(rect.top < window.innerHeight - 40){
+      done = true;
+      counters.forEach(function(el){
+        var target = parseInt(el.getAttribute('data-jk-count'), 10) || 0;
+        var start = null;
+        function step(ts){
+          if(!start){ start = ts; }
+          var p = Math.min((ts - start) / 900, 1);
+          el.textContent = Math.round(target * p).toLocaleString('zh-CN');
+          if(p < 1){ requestAnimationFrame(step); }
+        }
+        requestAnimationFrame(step);
+      });
+    }
+  }
+  window.addEventListener('scroll', runCount, {passive:true});
+  window.addEventListener('load', runCount);
+  runCount();
+})();
+</script>
+</body>
+          </html>
